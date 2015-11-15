@@ -1,0 +1,11 @@
+{
+	"Nomad": {
+		"hpMultiplier": 5,
+		"atkMultiplier": 3,
+		"defMultiplier": 0,
+		"abilities": {
+			"1": [],
+			"2": [],
+		},
+	},
+}

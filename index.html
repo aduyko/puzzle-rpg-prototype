@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Puzzle RPG Prototype</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script src="js/game.js"></script>
+		<script src="js/data.json"></script>
+		<script>
+			var game;
+			window.onload = function(){
+				game = new Game();
+				game.init();
+			};
+		</script>
+	</head>
+	<body>
+		<span class="title">Puzzle RPG</span>
+		<div class="game-wrapper">
+			<div class="grid"></div>
+			<div class="ui"></div>
+		</div>
+	</body>
+</html>

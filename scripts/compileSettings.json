@@ -1,0 +1,10 @@
+{
+	"levels": "../data/levels.json",
+	"images": "../data/images.json",
+	"generic": {
+		"abilities": "../data/generic/abilities.json",
+		"characters": "../data/generic/characters.json",
+		"enemies": "../data/generic/enemies.json"
+	},
+	"output": "../js/data.json",
+}

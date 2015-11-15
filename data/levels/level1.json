@@ -1,0 +1,34 @@
+{
+	"maps": ["level1.txt"],
+	"character": {
+		"type": "Nomad",
+		"level": 1,
+	},
+	"enemies": [
+		{
+			"type": "Knight",
+			"level": 1,
+		},
+		{
+			"type": "Knight",
+			"level": 2,
+			"events": {
+				"win": [
+					{
+						"type": "message",
+						"messages": ["Agghgh!","How could I have been defeated???"],
+					}, 
+					{
+						"type": "levelEnd",
+						"messages": ["Congratulations!"]
+					}
+				],
+				"lose": [{
+					"type": "message",
+					"messages": ["You'll never defeat me!"],
+				}]
+			},
+		},
+	],
+	""
+}

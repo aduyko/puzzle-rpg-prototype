@@ -1,0 +1,9 @@
+***** Render game based on loaded map
+
+****  Interaction with enemies
+****  Game over and reset
+
+***   Show data on hover on map
+***   Main menu
+
+*     Python data compile script

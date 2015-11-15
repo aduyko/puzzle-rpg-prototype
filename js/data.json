@@ -1,0 +1,73 @@
+var INIT_DATA = {
+	"levels": {
+		"level1": {
+			"maps" :[
+				".....\n.E.E.\n.....\n..C..\n.....",
+			],
+			"data":{
+				"character": {
+					"type": "Nomad",
+					"level": 1,
+				},
+				"enemies": [
+					{
+						"type": "Knight",
+						"level": 1,
+					},
+					{
+						"type": "Knight",
+						"level": 2,
+						"events": {
+							"win": [
+								{
+									"type": "message",
+									"messages": ["Agghgh!","How could I have been defeated???"],
+								}, 
+								{
+									"type": "levelEnd",
+									"messages": ["Congratulations!"]
+								}
+							],
+							"lose": [{
+								"type": "message",
+								"messages": ["You'll never defeat me!"],
+							}]
+						},
+					},
+				],
+			}
+		}
+	},
+	"images": {
+		"path": "data/images/",
+		"characters": {
+			"Knight": "characters/Tankv3.png",
+			"Nomad": "characters/Knightv31.png",
+		},
+	},
+	"generic": {
+		"abilities": {},
+		"characters": {
+			"Nomad": {
+				"hpMultiplier": 5,
+				"atkMultiplier": 3,
+				"defMultiplier": 0,
+				"abilities": {
+					"1": [],
+					"2": [],
+				},
+			},
+		},
+		"enemies": {
+			"Knight": {
+				"hpMultiplier": 5,
+				"atkMultiplier": 2,
+				"defMultiplier": 0,
+				"abilities": {
+					"1": [],
+					"2": [],
+				},
+			},
+		},
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"Knight": {
+		"hpMultiplier": 5,
+		"atkMultiplier": 2,
+		"defMultiplier": 0,
+		"abilities": {
+			"1": [],
+			"2": [],
+		},
+	},
+}
